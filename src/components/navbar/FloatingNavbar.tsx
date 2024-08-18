@@ -54,7 +54,7 @@ const FloatingNavbar = ({
           </Link>
         ))}
         <Link
-          href="https://github.com/sponsors/nixrajput"
+          href="https://github.com/ShoaibAKHTER0010"
           target="_blank"
           className="border text-xs/none sm:text-sm/none font-medium relative border-white/[0.2] text-white hover:text-[var(--primaryColor)] px-4 py-2 rounded-full"
         >
