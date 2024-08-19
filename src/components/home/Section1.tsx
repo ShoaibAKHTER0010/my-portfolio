@@ -21,7 +21,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
         <Column classNames="w-full items-center justify-center">
           <div className="inline-flex items-center">
             <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
-              Hi there, I am
+              Hi there, I am 
             </p>
             <FlipWords
               words={["Shoaib Akhter", "Web-Developer"]}

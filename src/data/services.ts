@@ -3,90 +3,98 @@ import { IServiceItem } from "@/types";
 const services: IServiceItem[] = [
   {
     id: 1,
-    title: "Mobile App Development",
+    title: "Single Landing-pages",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
-      "/skills/firebase.svg",
+      "/skills/html.svg",
+      "/skills/css.svg",
+      "/skills/javascript.svg",
+      "/skills/tailwind.svg",
+      "/skills/bootstrap.svg",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I create Single landing pages are focused, standalone web pages created using HTML, CSS and etc. They are designed for specific campaigns, featuring clean design .",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "Single landing pages are focused, standalone web pages created using HTML and CSS. They are designed for specific campaigns, featuring clean design, clear calls to action, and responsive layouts to engage visitors and drive conversions.",
   },
+
   {
     id: 2,
-    title: "Web Development",
+    title: "Front-End Development",
     icons: [
       "/skills/redux.svg",
+      "/skills/typescript.svg",
       "/skills/react.svg",
       "/skills/nextjs.png",
-      "/skills/html.svg",
+      "/skills/tailwind.svg",
       "/skills/css.svg",
     ],
     shortDescription: "I build visually stunning and user-friendly websites.",
     description:
-      "I deliver stunning, user-friendly websites to establish your online presence. From simple sites to complex e-commerce platforms, I provide tailored solutions using the latest frameworks and technologies for a seamless, responsive, and SEO-friendly browsing experience. Enhance your online identity with quality.",
+      "I deliver stunning, user-friendly websites to establish your online presence. From simple sites to complex e-commerce platforms, I provide tailored solutions using the latest frameworks and technologies for a seamless, responsive and fully annimated by different UIs. Enhance your online identity with quality.",
   },
   {
     id: 3,
-    title: "Backend Development",
+    title: "Full-Stack Development",
     icons: [
-      "/skills/socket-io.png",
+      "/skills/typescript.svg",
       "/skills/docker.png",
       "/skills/nodejs.svg",
       "/skills/express.svg",
-      "/skills/aws.svg",
+      "/skills/javascript.svg",
     ],
-    shortDescription: "I create robust and scalable backend infrastructures.",
+    shortDescription: "I create scalable backend and the server-side logic that powers web applications. .",
     description:
-      "I enhance digital applications with robust, scalable backend infrastructures. I develop efficient database structures, APIs, and configure servers for optimal performance, security, and scalability, ensuring your applications handle high traffic and complex data management seamlessly. Rely on strong backend solutions.",
+      "involves creating the server-side logic that powers web applications. It includes managing databases, handling user authentication, and ensuring secure and efficient data processing. Using technologies like Node.js, MongoDB, and APIs, back-end developers build the infrastructure that supports the front-end, enabling dynamic content and smooth user interactions.",
   },
   {
     id: 4,
-    title: "Product Strategy",
+    title: "Debugging-Tools",
     icons: [
-      "/skills/git.svg",
-      "/images/collaboration.png",
-      "/images/logical-thinking.png",
-      "/images/analytical-skills.png",
-      "/skills/ubuntu.png",
+      "/skills/bug.png",
+      "/skills/postman.png",
+      "/skills/chrome.svg",
+      "/skills/vscode.svg",
+      "/skills/bug.png",
+      
     ],
     shortDescription:
-      "I define goals, target audiences, and roadmaps for success.",
+      "I can finding and fixing errors in software code and identifying the cause of issues .",
     description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
+      "Debugging is the process of finding and fixing errors in software code. It involves identifying the cause of issues, analyzing code behavior, and applying corrections to ensure the program runs smoothly and as intended.",
   },
+  
   {
     id: 5,
-    title: "DevOps",
-    icons: [
-      "/skills/docker.svg",
-      "/skills/kubernetes.svg",
-      "/skills/aws.svg",
-      "/skills/jenkins.svg",
-      "/skills/terraform.svg",
-    ],
-    shortDescription: "I streamline development and operations processes.",
-    description:
-      "I streamline development and operations processes through effective DevOps practices. I implement continuous integration and deployment pipelines, manage cloud infrastructure, and use containerization to ensure efficient, reliable, and scalable software delivery. Improve your workflow with DevOps solutions.",
-  },
-  {
-    id: 6,
     title: "Database Management",
     icons: [
-      "/skills/mysql.svg",
-      "/skills/postgresql.svg",
+      "/skills/typeorm.png",
+      "/skills/prism.png",
       "/skills/mongodb.svg",
-      "/skills/redis.svg",
+      "/skills/strapi.png",
       "/skills/sqlite.svg",
     ],
     shortDescription: "I manage and optimize your database systems.",
     description:
       "I manage and optimize your database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure your data is managed effectively and efficiently.",
   },
+
+  {
+    id: 6,
+    title: "Framer Development",
+    icons: [
+      "/skills/fcode.png",
+      "/skills/framer-2.svg",
+      "/skills/fweb.png",
+      "/skills/framer-1.svg",
+      "/skills/fx.png",
+    ],
+    shortDescription: "I creating interactive and visually engaging user interfaces and excels at bringing creative ideas to life with smooth animations and responsive designs.",
+    description:
+      " helo i am a talented Framer developer at 8bit-lab, with a focus on creating interactive and visually engaging user interfaces. He is skilled in using Framer, along with his expertise in Next.js, React.js, TypeScript, Redux, and Tailwind CSS, to design and develop innovative web experiences. I excels at bringing creative ideas to life with smooth animations and responsive designs.",
+  },
+
+
+
 ];
 
 export default services;
