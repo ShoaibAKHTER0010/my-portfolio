@@ -11,14 +11,24 @@ const skills: ISkillListItem[] = [
       },
       {
         title: "TypeScript",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Expert,
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "Html",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/html.svg",
       },
+
+      {
+        title: "CSS",
+        level: SkillLevel.Expert,
+        icon: "/skills/css.svg",
+      },
+
+
+
+
     ],
   },
   {
@@ -41,12 +51,12 @@ const skills: ISkillListItem[] = [
       },
       {
         title: "CSS",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Expert,
         icon: "/skills/css.svg",
       },
       {
         title: "SASS",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Expert,
         icon: "/skills/sass.svg",
       },
       {
@@ -54,6 +64,13 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/redux.svg",
       },
+
+      {
+        title: "React Hooks",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/hooks.png",
+      },
+
     ],
   },
   {
@@ -81,21 +98,21 @@ const skills: ISkillListItem[] = [
       // },
     ],
   },
-  {
-    title: "Mobile App Development",
-    items: [
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
-      },
-    ],
-  },
+  // {
+  //   title: "Mobile App Development",
+  //   items: [
+  //     {
+  //       title: "Flutter",
+  //       level: SkillLevel.Expert,
+  //       icon: "/skills/flutter.svg",
+  //     },
+  //     {
+  //       title: "GetX",
+  //       level: SkillLevel.Expert,
+  //       icon: "/skills/getx.png",
+  //     },
+  //   ],
+  // },
   {
     title: "Database Management",
     items: [
@@ -105,30 +122,33 @@ const skills: ISkillListItem[] = [
         icon: "/skills/mongodb.svg",
       },
       {
-        title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
+        title: "Prism",
+        level: SkillLevel.Begginer,
+        icon: "/skills/prism.png",
       },
       {
-        title: "MySQL",
-        level: SkillLevel.Begginer,
-        icon: "/skills/mysql.svg",
+        title: "SQlite",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/sqlite.svg",
       },
+
+      {
+        title: "Strapi",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/strapi.png",
+      },
+
     ],
   },
   {
-    title: "DevOps/VCS",
+    title: "Common Tools",
     items: [
       {
-        title: "Docker",
-        level: SkillLevel.Begginer,
-        icon: "/skills/docker.png",
+        title: "Vercel",
+        level: SkillLevel.Expert,
+        icon: "/skills/vercel.png",
       },
-      {
-        title: "AWS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
-      },
+      
       {
         title: "Git",
         level: SkillLevel.Expert,
@@ -141,21 +161,21 @@ const skills: ISkillListItem[] = [
       },
     ],
   },
-  {
-    title: "Miscellaneous",
-    items: [
-      {
-        title: "Firebase",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
-      },
-      {
-        title: "Ubuntu",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
-      },
-    ],
-  },
+  // {
+  //   title: "Miscellaneous",
+  //   items: [
+  //     {
+  //       title: "Firebase",
+  //       level: SkillLevel.Intermediate,
+  //       icon: "/skills/firebase.svg",
+  //     },
+  //     {
+  //       title: "Ubuntu",
+  //       level: SkillLevel.Intermediate,
+  //       icon: "/skills/ubuntu.png",
+  //     },
+  //   ],
+  // },
   {
     title: "Nontechnical Skills",
     items: [
