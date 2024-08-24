@@ -28,16 +28,16 @@ const experiences: IExperienceItem[] = [
   },
 
   {
-    designation: "Framer-Developer",
+    designation: "Web-Flow Developer",
     company: "8bit-lab",
     startDate: "Dec-2023",
     endDate: "May-2024",
     isCurrentJob: false,
     location: "Remote",
     shortDescription:
-      "I have a proven track record of success, having developed more than 12 applications that seamlessly integrate Framer-Development.",
+      "I specialize in crafting interactive and visually captivating user interfaces and excel at bringing creative ideas to life with seamless animations and responsive designs in Webflow.",
     description:
-      "Hey i am a talented Framer developer at 8bit-lab since Dec-2023, with a focus on creating interactive and visually engaging user interfaces. He is skilled in using Framer, along with his expertise in Next.js, React.js, TypeScript, Redux, and Tailwind CSS, to design and develop innovative web experiences. Shoaib excels at bringing creative ideas to life with smooth animations and responsive designs.",
+      "Hey, I am a talented Webflow developer with a focus on creating interactive and visually engaging user interfaces. I am skilled in Webflow, along with expertise in Next.js, React.js, TypeScript, Redux, and Tailwind CSS, to design and develop innovative web experiences. I excel at bringing creative ideas to life with smooth animations and responsive designs",
   },
 ];
 

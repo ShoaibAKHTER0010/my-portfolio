@@ -80,17 +80,17 @@ const services: IServiceItem[] = [
 
   {
     id: 6,
-    title: "Framer Development",
+    title: "Web-Flow Development",
     icons: [
-      "/skills/fcode.png",
-      "/skills/framer-2.svg",
-      "/skills/fweb.png",
-      "/skills/framer-1.svg",
-      "/skills/fx.png",
+      "/skills/editor.png",
+      "/skills/ecommerce.png",
+      "/skills/webflow.png",
+      "/skills/cms.png",
+      "/skills/intregration.png",
     ],
-    shortDescription: "I creating interactive and visually engaging user interfaces and excels at bringing creative ideas to life with smooth animations and responsive designs.",
+    shortDescription: "I specialize in crafting interactive and visually captivating user interfaces and excel at bringing creative ideas to life with seamless animations and responsive designs in Webflow.",
     description:
-      " helo i am a talented Framer developer at 8bit-lab, with a focus on creating interactive and visually engaging user interfaces. He is skilled in using Framer, along with his expertise in Next.js, React.js, TypeScript, Redux, and Tailwind CSS, to design and develop innovative web experiences. I excels at bringing creative ideas to life with smooth animations and responsive designs.",
+      " Hello, I am a talented Webflow developer with a focus on creating interactive and visually engaging user interfaces. I am skilled in Webflow, along with expertise in Next.js, React.js, TypeScript, Redux, and Tailwind CSS, to design and develop innovative web experiences. I excel at bringing creative ideas to life with smooth animations and responsive designs.",
   },
 
 

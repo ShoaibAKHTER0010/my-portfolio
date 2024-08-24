@@ -159,6 +159,12 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/github.svg",
       },
+
+      {
+        title: "Web-Flow",
+        level: SkillLevel.Expert,
+        icon: "/skills/webflow.png",
+      },
     ],
   },
   // {
