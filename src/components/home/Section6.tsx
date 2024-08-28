@@ -44,12 +44,12 @@ const HomeSection6 = ({ id }: { id: string }) => {
 
           <div className="text-center mx-auto mt-10 text-2xl/6 font-bold">
   <p className="inline-flex">
-    I&apos;m&nbsp;
-    <span className="text-[var(--primaryColor)]">available</span>
+    I&apos;M&nbsp;
+    <span className="text-[var(--primaryColor)]">Available For</span>
   </p>
 
   <FlipWords
-    words={["For Freelancing", "For Developing"]}/>
+    words={["Web-Developent", "Web-Flow Development"]}/>
 </div>
 
         </Column>
