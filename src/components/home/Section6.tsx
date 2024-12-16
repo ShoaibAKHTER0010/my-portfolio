@@ -49,7 +49,7 @@ const HomeSection6 = ({ id }: { id: string }) => {
   </p>
 
   <FlipWords
-    words={["Web-Developent", "Web-Flow Development"]}/>
+    words={["Web-Development", "Web-Flow Development"]}/>
 </div>
 
         </Column>
