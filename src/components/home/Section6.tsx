@@ -8,6 +8,8 @@ import socialLinks from "@/data/socialLinks";
 import { CONTACT_US_LINK } from "@/constants"
 import { FlipWords } from "../common/FlipWords";
 import '@/app/global.css';
+import Image from "next/image";
+import Link from 'next/link';
 
 const HomeSection6 = ({ id }: { id: string }) => {
   return (
@@ -31,13 +33,17 @@ const HomeSection6 = ({ id }: { id: string }) => {
               );
             })}
 
-            <a href={CONTACT_US_LINK} target="_blank" className="vibrate-on-hover ">
-              <img
-                className="relative flex flex-row animated__hover h-[48px] w-full object-contain mt-5"
-                src="/images/whatsapp.svg"
-                alt="contact me"
-              />
-            </a>
+<Link href={CONTACT_US_LINK} passHref>
+  <a target="_blank" className="vibrate-on-hover">
+    <Image
+      className="relative flex flex-row animated__hover h-[48px] w-full object-contain mt-5"
+      src="/images/whatsapp.svg"
+      alt="contact me"
+      width={80}
+      height={80}
+    />
+  </a>
+</Link>
 
            
           </GridBox>
